@@ -1,0 +1,59 @@
+// ====== 客制範圍 SR ======
+// 主色系變數
+$main-color01: #3b8741; //主色1
+$main-color02: #e36029; //主色2
+$main-color03: #8F8F8F; //輔助色
+$main-color04: #353C43; //輔助色
+$main-color01-light: #EBF6F3;
+
+.main-color01 {
+    color: $main-color01;
+}
+.main-color02 {
+    color: $main-color02;
+}
+.main-color03 {
+    color: $main-color03;
+}
+.bg-color01 {
+    background-color: $main-color01;
+    color: #fff;
+}
+.bg-color02 {
+    background-color: $main-color02;
+    color: #fff;
+}
+.bg-color03 {
+    background-color: $main-color03;
+    color: #fff;
+}
+.bg-color04 {
+    background-color: $main-color04;
+    color: #fff;
+}
+.bg-color01-light {
+    background-color: $main-color01-light;
+}
+
+.link-color01 {
+    color: $main-color01;
+    transition: .3s;
+    &:hover {
+        color: darken($main-color01, 10%);
+    }
+}
+
+.btn-color01 {
+    color: #fff;
+    background-color: $main-color01;
+    border-color: $main-color01;
+    &:hover {
+        color: #fff;
+        background-color: darken($main-color01, 7%);
+        border-color: darken($main-color01, 7%);
+    }
+}
+
+// 客制變數
+$_custom-box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+$_custom-border-radius: 6px;

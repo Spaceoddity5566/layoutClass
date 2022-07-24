@@ -1,0 +1,22 @@
+<!-- index.nunjucks -->
+{% extends "layout.html" %}
+<!--TITLE setting-->
+{% block title %}空白框架{% endblock %}
+<!--Nav setting-->
+{% block navigation %}
+{% import 'macros/nav.html' as nav %}
+<!-- Set navitem to active -->
+{{nav.active('index')}}
+{% endblock %}
+{% block content %}
+<!-- 內容切換範圍 SR -->
+<div class="row">
+    <div class="col">空白框架</div>
+</div>
+<!-- 內容切換範圍 END -->
+{% endblock %}
+
+{% block js %}
+<!-- 單獨引用 JS 放置處 -->
+<!-- <script></script> -->
+{% endblock %}

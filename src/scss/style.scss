@@ -1,0 +1,24 @@
+// 引入用
+@charset "UTF-8";
+
+// bootstrap icon
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+
+// bootstrap 核心
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// 自訂文字
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto&display=swap');
+
+// 修改的變數
+@import "variables";
+@import "mixin";
+
+// 選單
+@import "nav";
+
+// 引入其他 css
+
+// 客製化CSS
+@import "_custom.scss";
+
